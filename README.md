@@ -84,6 +84,8 @@ En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/
 ![image](https://user-images.githubusercontent.com/98216838/156884965-04053a0f-fff3-4ea4-8eb0-664d19065782.png)\
 Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.\
 ![image](https://user-images.githubusercontent.com/98216838/156885320-a3970a75-b039-4055-9bf6-bb6d0bb5279a.png)\
+Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.\
+![image](https://user-images.githubusercontent.com/98216838/156888239-c3859dc6-3661-4f5f-a305-e6d6c653e1ce.png)
 
 
 
