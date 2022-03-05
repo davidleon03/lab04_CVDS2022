@@ -1,6 +1,6 @@
 # lab04_CVDS2022
 
-PARTE I. - JUGANDO A SER UN CLIENTE HTTP
+## PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 1. Abra una terminal Linux o consola de comandos Windows.
 2. Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
   - Host: www.escuelaing.edu.co
@@ -64,7 +64,7 @@ curl -i www.httpbin.org
 -v, --verbose Hacer que la operación sea más comunicativa -i, --include Incluir encabezados de respuesta de protocolo en la salida
 
 Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
-PARTE II\
+## PARTE II\
 I. Para esto, cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:\
 ![image](https://user-images.githubusercontent.com/98216838/156883250-e42bca82-c5e9-4bc8-9196-3ae2acb1a0db.png)\
 Revise en el pom.xml para qué puerto TCP/IP está configurado el servidor embebido de Tomcat (ver sección de plugins).\
