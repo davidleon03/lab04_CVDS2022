@@ -64,7 +64,7 @@ curl -i www.httpbin.org
 -v, --verbose Hacer que la operación sea más comunicativa -i, --include Incluir encabezados de respuesta de protocolo en la salida
 
 Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
-## PARTE II\
+## PARTE II
 I. Para esto, cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:\
 ![image](https://user-images.githubusercontent.com/98216838/156883250-e42bca82-c5e9-4bc8-9196-3ae2acb1a0db.png)\
 Revise en el pom.xml para qué puerto TCP/IP está configurado el servidor embebido de Tomcat (ver sección de plugins).\
@@ -87,7 +87,14 @@ Basado en la respuesta que le da el servicio del punto anterior, cree la clase e
 Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.\
 ![image](https://user-images.githubusercontent.com/98216838/156888239-c3859dc6-3661-4f5f-a305-e6d6c653e1ce.png)\
 ![image](https://user-images.githubusercontent.com/98216838/157573430-ff9952b8-d653-49d0-9c4c-7892e56e85f0.png)\
-![image](https://user-images.githubusercontent.com/98216838/157573475-4445a0e2-4f69-4426-bb08-79d818e632cd.png)\
+![image](https://user-images.githubusercontent.com/98216838/157573475-4445a0e2-4f69-4426-bb08-79d818e632cd.png)
+## Parte III
+![image](https://user-images.githubusercontent.com/98216838/157577737-36c1d8df-3742-41ff-97e3-da88578461bb.png)\
+![image](https://user-images.githubusercontent.com/98216838/157577851-2d120ca7-dfa6-4c7b-8336-00be06ac41b3.png)\
+Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?\
+La diferencia principal se encuentra en las url de cada solicitud\
+
+
 
 
 
