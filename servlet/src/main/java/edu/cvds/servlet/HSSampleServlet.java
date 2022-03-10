@@ -49,4 +49,39 @@ public class HSSampleServlet extends HttpServlet{
             responseWriter.write("Requerimiento invalido");
         }
     }
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+     	
+         Writer responseWriter = resp.getWriter();
+         try {
+             Optional<String> optId = Optional.ofNullable(req.getParameter("id"));
+             Integer id = (Integer.parseInt(optId.get()));
+             Todo lista = Service.getTodo(id);           
+             ArrayList<Todo> listaDeToDos = new ArrayList<Todo>();
+             listaDeToDos.add(lista);
+             resp.setStatus(HttpServletResponse.SC_OK);
+             responseWriter.write(Service.todosToHTMLTable(listaDeToDos));
+             responseWriter.flush();              
+         }
+         //Id invalido (Se paso un String o no hubo valor)
+         catch ( NumberFormatException e){
+             responseWriter.write("Requerimiento Inválido3");
+         }
+         //Id No encontrado
+         catch (FileNotFoundException e){
+         
+             responseWriter.write("No encontrado.");
+             
+             
+             
+         }
+         //MalformedURL
+         catch (MalformedURLException e){
+             responseWriter.write("Error interno en el Servidor ");
+         }
+         //otros Errores
+         catch (Exception e){
+             responseWriter.write("Requerimiento Invalido");
+         }  
+    }
 }

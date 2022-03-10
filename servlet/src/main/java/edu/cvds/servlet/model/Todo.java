@@ -24,7 +24,7 @@ public class Todo {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public boolean isCompleted() {
+	public boolean getCompleted() {
 		return completed;
 	}
 	public void setCompleted(boolean completed) {
