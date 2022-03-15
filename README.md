@@ -95,7 +95,7 @@ Recompile y ejecute la aplicación. Abra en su navegador en la página del formu
 La diferencia principal se encuentra en las url de cada solicitud\
 
 
-PARTE IV. - FRAMEWORKS WEB MVC – JAVA SERVER FACES / PRIME FACES
+## PARTE IV. - FRAMEWORKS WEB MVC – JAVA SERVER FACES / PRIME FACES
 En este ejercicio, usted va a desarrollar una aplicación Web basada en el marco JSF, y en una de sus implementaciones más usadas: PrimeFaces. Se trata de un juego en línea para adivinar un número, en el que el ganador, si atina en la primera oportunidad, recibe $100.000. Luego, por cada intento fallido, el premio se reduce en $10.000.
 
 1. Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl, javax.servlet.jstl y Primefaces (en el archivo pom.xml).
